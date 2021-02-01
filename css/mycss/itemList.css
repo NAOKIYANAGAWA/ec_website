@@ -1,0 +1,20 @@
+body {
+    positin: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.list-wrapper-sub2 {
+    /*display: flex;*/
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid #000;
+}
+.list-wrapper-sub table {
+    margin: 0px;
+}
+.item-pics img {
+    padding: 5px;
+    width: 240px;
+}

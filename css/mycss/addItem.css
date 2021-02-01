@@ -1,0 +1,98 @@
+body {
+    positin: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.form-addItem {
+    padding: 20px;
+    border: 1px solid #000;
+}
+.form-addOption {
+    padding: 20px;
+    border: 1px solid #000;
+}
+.item-wrapper {
+    width: 100%;
+    /*height: 40px;*/
+    margin-top: 20px;
+}
+label {
+    min-width: 1000px;
+}
+.list-wrapper {
+    margin: 30px;
+    padding: 30px;
+}
+
+.wrapper-photo-section {
+    display: none;
+    position:absolute;
+    top: 0px;
+    left:0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    background: rgba(0,0,0,0.3);
+}
+.show-photo-section {
+    display: block;
+}
+
+.photo-section {
+    display: flex;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+    padding: 0px;
+    /*width: 700px;*/
+    max-width: 1000px;
+    min-width: 500px;
+    height: 400px;
+    background: #fff;
+    z-index: 100;
+}
+.photo-section p {
+    position:absolute;
+    bottom: -40px;
+    right: -20px;
+    cursor: pointer;
+}
+
+ .photo-section ul {
+      /*display: flex;*/
+      width: 100%;
+      margin: 0px;
+      padding: 10px;
+    }
+.photo-section li {
+      position: relative;
+      float: left;
+      /*margin: 0px;*/
+      width: 　120px;
+      height: 120px;
+      max-width: 120px;
+      overflow: hidden;
+      list-style: none;
+}
+.photo-section li:hover {
+      opacity: .8;
+      cursor: pointer;
+    }
+ .photo-section img {
+      /*position: absolute;*/
+      /*top: 50%;*/
+      /*left: 50%;*/
+      /*transform: translateY(-50%) translateX(-50%);*/
+}
+.type {
+    display: flex;
+}
+.type p {
+    margin: 20px 0px 0px 0px;
+}
