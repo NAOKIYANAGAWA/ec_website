@@ -44,6 +44,9 @@ https://naokiyanagawa.ga
    - Sequel Pro
 #### 本番環境
    - AWS(EC2,RDS,Route53,VPC,CloudTrail,Certificate Manager)
+   
+#### インフラ構成図
+![kouseizu](https://user-images.githubusercontent.com/73929004/106561666-73497780-656c-11eb-9654-ac9478f39dda.jpg)
 
 ## 説明
 ECサイトの構築を意識して作成しました。<br> 
